@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="All in One"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-30 12:41:58 PM"/>
+        <attribute name="created" value="QWxsIGluIE9uZTtBTExJTk9ORS1QQzsyMDE5LTEwLTMwOzExOjI3OjE4IEFNOzI5MDE="/>
+        <attribute name="edited" value="QWxsIGluIE9uZTtBTExJTk9ORS1QQzsyMDE5LTEwLTMwOzEyOjQxOjU4IFBNOzI7MzAyNg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="relationship" type="Integer" array="False" size=""/>
+            <output expression="&quot;how many in-relationship have you been?&quot;" newline="True"/>
+            <input variable="relationship"/>
+            <if expression="relationship &lt;= 1">
+                <then>
+                    <declare name="wedding" type="Integer" array="False" size=""/>
+                    <output expression="&quot;How old do you want to be married to someone?&quot;" newline="True"/>
+                    <input variable="wedding"/>
+                    <if expression="wedding &lt;= 25">
+                        <then>
+                            <output expression="&quot;have a plan for the your future&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <declare name="life" type="Integer" array="False" size=""/>
+                            <output expression="&quot;Do you want to be dead at the age of 30 or 40?&quot;" newline="True"/>
+                            <input variable="life"/>
+                            <if expression="life &gt;= 30">
+                                <then>
+                                    <output expression="&quot;you will be dead&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;you will be dead&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <declare name="girlfriends" type="Integer" array="False" size=""/>
+                    <output expression="&quot;how many girlfriends have you been with?&quot;" newline="True"/>
+                    <input variable="girlfriends"/>
+                    <if expression="girlfriends &lt;= 2">
+                        <then>
+                            <declare name="age" type="Integer" array="False" size=""/>
+                            <output expression="&quot;how old are you when you got your first girlfriend&quot;" newline="True"/>
+                            <input variable="age"/>
+                            <if expression="age &gt;= 12">
+                                <then>
+                                    <output expression="&quot;you are just playing around&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;you don't still know the meaning of love&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <declare name="playboy" type="Integer" array="False" size=""/>
+                            <output expression="&quot;When will you going to be serious in relationship?&quot;" newline="True"/>
+                            <input variable="playboy"/>
+                            <if expression="playboy &gt;= 30">
+                                <then>
+                                    <output expression="&quot;you need to find your true colors&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;you should think for your life where to be in the future&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
